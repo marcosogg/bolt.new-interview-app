@@ -1,8 +1,9 @@
 export interface Question {
+  id: string;
   question: string;
   answer: string;
-  eli12: string;
+  simplifiedExplanation: string;
   practicalExample: string;
-  codeSnippet: string;
   category: string;
+  codeSnippet?: string;
 }
